@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -103,3 +103,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ealias="vim ~/.zshrc"
+alias lalias="source ~/.zshrc"
+
+alias idea="(bash -c '/home/cris/jetbrains/ideaIU-2021.3.3/idea-IU-213.7172.25/bin/idea.sh .' &) &> /dev/null"
+
+alias spinit-sample-psql="spring init --dependencies=web,data-jpa,postgresql --packaging=jar --build=maven"
+
+alias -s json=code
